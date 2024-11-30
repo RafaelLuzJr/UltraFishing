@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3038932808922130413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4059421033797940768, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710118325094438590, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32516617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710118325094438590, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_Size.y
+      value: 0.2246171
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710118325094438590, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.025679143
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710118325094438590, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.01428764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.788
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001846352920027677, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6152893174738360016, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_Name
+      value: PeixeEspada Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6152893174738360016, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 815748271628075849, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+    - {fileID: 9223045858609600732, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+    - {fileID: 6940476168084392721, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6152893174738360016, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4004637892368260955}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+--- !u!1 &9173554229500047677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6152893174738360016, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+  m_PrefabInstance: {fileID: 3038932808922130413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4004637892368260955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173554229500047677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb92ecd53d801c4a9f4d42a12d189a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  unstopabble: 0
+  roped: 0
+  isFish: 0
+  damage: 0
+  gun: {fileID: 0}
+  ropeController: {fileID: 0}

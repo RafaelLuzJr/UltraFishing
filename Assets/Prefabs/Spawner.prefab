@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4954410352030923823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3620133264423368229}
+  - component: {fileID: 6467621805876275088}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3620133264423368229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4954410352030923823}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6467621805876275088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4954410352030923823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d73e9d248af296459ad1fa82fa1fea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 6152893174738360016, guid: 9c144fe776093fe45bafbff557d48c33, type: 3}
+  - {fileID: 4915939215956953616, guid: a1676df03fa85c248bd5296c27050ced, type: 3}
+  - {fileID: 1495559857462022196, guid: 5b5e89fc678f05a49bca842ad8d81896, type: 3}
+  - {fileID: 1706069991154373160, guid: 4c491440e62d3814ca150727081bc6b6, type: 3}
+  - {fileID: 6230949391514776543, guid: 0a5b58e953438f642a31a74cdfcea806, type: 3}
+  - {fileID: 2736113341056018671, guid: af4ec9dd8d90b2f4982ac55d37abf5b3, type: 3}
+  tBeforeSpawn:
+  - 1
+  entityTypes: 00000000
+  speed:
+  - 0.5
+  rotationSpeed:
+  - 10
+  dirChangeTime:
+  - 1.2
